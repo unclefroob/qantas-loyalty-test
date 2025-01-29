@@ -1,39 +1,75 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Rating, styled, Typography } from "@mui/material";
 import { IProperty } from "../assets/types";
 import { formatCancellationType } from "../helpers";
+import StarIcon from "@mui/icons-material/Star";
+import CircleIcon from "@mui/icons-material/Circle";
 
 interface IListItemProps {
   item: IProperty;
 }
 
+const ListItemContainer = styled(Box)({
+  display: "flex",
+});
+
+const AddressLine = styled(Box)({
+  display: "flex",
+  alignItems: "center",
+});
+const DetailsOuterContainer = styled(Box)({
+  display: "flex",
+});
+const DetailsInnerContainer = styled(Box)({});
+const PriceContainer = styled(Box)({});
+
 const ListItem = (props: IListItemProps) => {
   const { item } = props;
   const { property, offer } = item;
-  console.log(offer);
+  const ratingIcon =
+    property.rating.ratingType === "self" ? (
+      <CircleIcon fontSize="inherit" />
+    ) : (
+      <StarIcon fontSize="inherit" />
+    );
+
   return (
-    <Box sx={{ display: "flex" }}>
+    <ListItemContainer>
       <Box sx={{}}>
         <img
           src={property.previewImage.url}
           alt={`${property.title}-preview-image`}
         />
       </Box>
-      <Box sx={{}}>
-        <Typography>{property.title}</Typography>
-        <Typography>{property.address}</Typography>
-        <Typography>{offer.name}</Typography>
-        <Typography>
-          {formatCancellationType(offer.cancellationOption.cancellationType)}
-        </Typography>
-      </Box>
-      <Box sx={{}}>
-        <Typography>night total ({offer.displayPrice.currency})</Typography>
-        <Typography>${offer.displayPrice.amount}</Typography>
-        {offer.savings && (
-          <Typography>Save ${offer.savings.amount}~</Typography>
-        )}
-      </Box>
-    </Box>
+      <DetailsOuterContainer>
+        <DetailsInnerContainer>
+          <Typography>{property.title}</Typography>
+          <AddressLine>
+            <Typography>
+              {`${property.address[0]}, ${property.address[1]}`}
+            </Typography>
+            <Rating
+              name="rating"
+              defaultValue={property.rating.ratingValue}
+              precision={0.5}
+              size="small"
+              icon={ratingIcon}
+              emptyIcon={ratingIcon}
+            />
+          </AddressLine>
+          <Typography>{offer.name}</Typography>
+          <Typography>
+            {formatCancellationType(offer.cancellationOption.cancellationType)}
+          </Typography>
+        </DetailsInnerContainer>
+        <PriceContainer>
+          <Typography>night total ({offer.displayPrice.currency})</Typography>
+          <Typography>${offer.displayPrice.amount}</Typography>
+          {offer.savings && (
+            <Typography>Save ${offer.savings.amount}~</Typography>
+          )}
+        </PriceContainer>
+      </DetailsOuterContainer>
+    </ListItemContainer>
   );
 };
 
