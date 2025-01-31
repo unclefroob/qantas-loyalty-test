@@ -3,6 +3,7 @@ import { IProperty } from "../assets/types";
 import { formatCancellationType } from "../helpers";
 import StarIcon from "@mui/icons-material/Star";
 import CircleIcon from "@mui/icons-material/Circle";
+import { colours } from "./colours";
 
 interface IListItemProps {
   item: IProperty;
@@ -10,16 +11,27 @@ interface IListItemProps {
 
 const ListItemContainer = styled(Box)({
   display: "flex",
+  ":last-of-type": {
+    borderBottom: "1px solid black",
+  },
+});
+
+const DetailsOuterContainer = styled(Box)({
+  display: "flex",
+  justifyContent: "space-between",
+  padding: "0.4rem",
+  borderTop: "1px solid black",
 });
 
 const AddressLine = styled(Box)({
   display: "flex",
   alignItems: "center",
 });
-const DetailsOuterContainer = styled(Box)({
-  display: "flex",
+
+const DetailsInnerContainer = styled(Box)({
+  paddingLeft: "0.8rem",
+  paddingRight: "0.8rem",
 });
-const DetailsInnerContainer = styled(Box)({});
 const PriceContainer = styled(Box)({});
 
 const ListItem = (props: IListItemProps) => {
@@ -57,12 +69,12 @@ const ListItem = (props: IListItemProps) => {
             />
           </AddressLine>
           <Typography>{offer.name}</Typography>
-          <Typography>
+          <Typography color={colours.cancellationType}>
             {formatCancellationType(offer.cancellationOption.cancellationType)}
           </Typography>
         </DetailsInnerContainer>
         <PriceContainer>
-          <Typography>night total ({offer.displayPrice.currency})</Typography>
+          <Typography>1 night total ({offer.displayPrice.currency})</Typography>
           <Typography>${offer.displayPrice.amount}</Typography>
           {offer.savings && (
             <Typography>Save ${offer.savings.amount}~</Typography>
