@@ -1,3 +1,4 @@
 export const colours = {
-  cancellationType: "#678277",
+  cancellationType: "#77b199",
+  roomType: "#e56a78",
 };
