@@ -21,7 +21,10 @@ const Header = (props: IHeaderProps) => {
       <Typography>{numberOfHotels} hotels in Sydney</Typography>
       <SortByContainer>
         <Typography sx={{ marginRight: "0.2rem" }}>Sort by</Typography>
-        <select></select>
+        <select>
+          <option value="desc">Price (High to Low)</option>
+          <option value="asc">Price (Low to High)</option>
+        </select>
       </SortByContainer>
     </HeaderBox>
   );
