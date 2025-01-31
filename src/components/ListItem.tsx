@@ -12,7 +12,7 @@ interface IListItemProps {
 const ListItemContainer = styled(Box)({
   display: "flex",
   ":last-of-type": {
-    borderBottom: "1px solid black",
+    borderBottom: "1px solid #d0d0d0",
   },
 });
 
@@ -21,7 +21,7 @@ const DetailsOuterContainer = styled(Box)({
   flex: 1,
   justifyContent: "space-between",
   padding: "0.4rem",
-  borderTop: "1px solid black",
+  borderTop: "1px solid #d0d0d0",
 });
 
 const NameLine = styled(Box)({
@@ -116,7 +116,9 @@ const ListItem = (props: IListItemProps) => {
           </PriceValueContainer>
           <SavingsContainer>
             {offer.savings && (
-              <Typography>Save ${offer.savings.amount}~</Typography>
+              <Typography color={colours.savings}>
+                Save ${offer.savings.amount}~
+              </Typography>
             )}
           </SavingsContainer>
         </PriceContainer>
