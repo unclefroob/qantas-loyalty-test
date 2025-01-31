@@ -78,13 +78,12 @@ const ListItem = (props: IListItemProps) => {
                 name="rating"
                 defaultValue={property.rating.ratingValue}
                 precision={0.5}
-                size="small"
                 icon={ratingIcon}
                 emptyIcon={ratingIcon}
-                sx={{ marginLeft: "0.4rem" }}
+                sx={{ marginLeft: "0.4rem", fontSize: 14 }}
               />
             </NameLine>
-            <Typography>
+            <Typography color={colours.address} sx={{ fontSize: 12 }}>
               {`${property.address[0]}, ${property.address[1]}`}
             </Typography>
           </Box>
@@ -94,7 +93,10 @@ const ListItem = (props: IListItemProps) => {
           >
             {offer.name}
           </Typography>
-          <Typography color={colours.cancellationType} sx={{ fontSize: 12 }}>
+          <Typography
+            color={colours.cancellationType}
+            sx={{ fontSize: 12, minHeight: "1rem" }}
+          >
             {formatCancellationType(offer.cancellationOption.cancellationType)}
           </Typography>
         </DetailsInnerContainer>
