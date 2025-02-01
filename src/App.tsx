@@ -1,7 +1,8 @@
+import { useState } from "react";
 import qantasLogo from "./assets/qantas-logo.png";
 import data from "./assets/data.json";
 import ListItem from "./components/ListItem";
-import Header from "./components/Header";
+import Header, { SortBy } from "./components/Header";
 import { Box, styled } from "@mui/material";
 
 const AppBox = styled(Box)({
@@ -9,12 +10,17 @@ const AppBox = styled(Box)({
 });
 
 const App = () => {
+  const [sortBy, setSortBy] = useState<SortBy>(SortBy.ASC);
   return (
     <AppBox>
       <a href="https://localhost:5173" target="_blank">
         <img src={qantasLogo} alt="Qantas Logo" />
       </a>
-      <Header numberOfHotels={data.results.length} />
+      <Header
+        numberOfHotels={data.results.length}
+        sortBy={sortBy}
+        setSortBy={setSortBy}
+      />
       {data.results.map((item) => (
         <ListItem key={item.id} item={item} />
       ))}
