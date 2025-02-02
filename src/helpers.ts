@@ -10,7 +10,10 @@ export const formatCancellationType = (type: string) => {
   }
 };
 
-export const sortData = (data: IProperty[], direction: SortBy): IProperty[] => {
+export const sortData = (
+  data: IProperty[],
+  direction: SortBy | null
+): IProperty[] => {
   return data.sort((a, b) =>
     determineSortDirection(
       direction,
@@ -20,7 +23,11 @@ export const sortData = (data: IProperty[], direction: SortBy): IProperty[] => {
   );
 };
 
-const determineSortDirection = (direction: SortBy, a: number, b: number) => {
+const determineSortDirection = (
+  direction: SortBy | null,
+  a: number,
+  b: number
+) => {
   switch (direction) {
     case SortBy.PRICE_ASC:
       return a - b;
