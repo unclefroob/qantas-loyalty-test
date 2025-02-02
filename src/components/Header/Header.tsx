@@ -25,6 +25,7 @@ const Header = (props: IHeaderProps) => {
   const { numberOfHotels, sortBy, setSortBy } = props;
 
   const handleSort = (e: ChangeEvent<HTMLSelectElement>) => {
+    console.log("hi");
     setSortBy(SortBy[e.target.value as keyof typeof SortBy]);
   };
 
@@ -33,7 +34,7 @@ const Header = (props: IHeaderProps) => {
       <Typography>{numberOfHotels} hotels in Sydney</Typography>
       <SortByContainer>
         <Typography sx={{ marginRight: "0.2rem" }}>Sort by</Typography>
-        <select onChange={handleSort} value={sortBy}>
+        <select data-testid="sort-menu" onChange={handleSort} value={sortBy}>
           <option value={SortBy.PRICE_DESC}>Price (High to Low)</option>
           <option value={SortBy.PRICE_ASC}>Price (Low to High)</option>
         </select>
