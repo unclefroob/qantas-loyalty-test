@@ -1,5 +1,5 @@
 import { IProperty } from "./assets/types";
-import { SortBy } from "./components/Header";
+import { SortBy } from "./components/Header/Header";
 
 export const formatCancellationType = (type: string) => {
   switch (type) {

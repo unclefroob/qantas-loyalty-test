@@ -1,9 +1,9 @@
 import { Box, Rating, styled, Typography } from "@mui/material";
-import { IProperty } from "../assets/types";
-import { formatCancellationType } from "../helpers";
+import { IProperty } from "../../assets/types";
+import { formatCancellationType } from "../../helpers";
 import StarIcon from "@mui/icons-material/Star";
 import CircleIcon from "@mui/icons-material/Circle";
-import { colours } from "./colours";
+import { colours } from "./../colours";
 
 interface IListItemProps {
   item: IProperty;

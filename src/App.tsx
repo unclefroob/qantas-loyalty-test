@@ -1,10 +1,10 @@
 import { useState } from "react";
 import qantasLogo from "./assets/qantas-logo.png";
 import data from "./assets/data.json";
-import ListItem from "./components/ListItem";
-import Header, { SortBy } from "./components/Header";
+import Header, { SortBy } from "./components/Header/Header";
 import { Box, styled } from "@mui/material";
 import { sortData } from "./helpers";
+import ListItem from "./components/ListItem/ListItem";
 
 const AppBox = styled(Box)({
   width: "100%",

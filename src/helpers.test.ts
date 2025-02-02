@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { formatCancellationType, sortData } from "./helpers";
 import data from "./assets/data.json";
-import { SortBy } from "./components/Header";
+import { SortBy } from "./components/Header/Header";
 
 describe("Helper Functions", () => {
   describe("formatCancellationType", () => {
