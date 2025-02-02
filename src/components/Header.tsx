@@ -2,8 +2,8 @@ import { Box, styled, Typography } from "@mui/material";
 import { ChangeEvent, Dispatch, SetStateAction } from "react";
 
 export enum SortBy {
-  DESC = "DESC",
-  ASC = "ASC",
+  PRICE_DESC = "PRICE_DESC",
+  PRICE_ASC = "PRICE_ASC",
 }
 interface IHeaderProps {
   numberOfHotels: number;
@@ -34,8 +34,8 @@ const Header = (props: IHeaderProps) => {
       <SortByContainer>
         <Typography sx={{ marginRight: "0.2rem" }}>Sort by</Typography>
         <select onChange={handleSort} value={sortBy}>
-          <option value={SortBy.DESC}>Price (High to Low)</option>
-          <option value={SortBy.ASC}>Price (Low to High)</option>
+          <option value={SortBy.PRICE_DESC}>Price (High to Low)</option>
+          <option value={SortBy.PRICE_ASC}>Price (Low to High)</option>
         </select>
       </SortByContainer>
     </HeaderBox>
