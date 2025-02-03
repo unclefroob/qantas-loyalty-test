@@ -1,0 +1,38 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header > renders the Header component 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-vf7s70"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+    >
+      1 hotels in Sydney
+    </p>
+    <div
+      class="MuiBox-root css-162tvoi"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-1v4yp5n-MuiTypography-root"
+      >
+        Sort by
+      </p>
+      <select
+        data-testid="sort-menu"
+      >
+        <option
+          value="PRICE_DESC"
+        >
+          Price (High to Low)
+        </option>
+        <option
+          value="PRICE_ASC"
+        >
+          Price (Low to High)
+        </option>
+      </select>
+    </div>
+  </div>
+</DocumentFragment>
+`;

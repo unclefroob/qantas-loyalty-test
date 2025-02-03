@@ -8,13 +8,14 @@ const mockSetSortBy = vi.fn();
 
 describe("Header", () => {
   it("renders the Header component", () => {
-    render(
+    const { asFragment } = render(
       <Header
         numberOfHotels={1}
         sortBy={SortBy.PRICE_ASC}
         setSortBy={mockSetSortBy}
       />
     );
+    expect(asFragment()).toMatchSnapshot();
   });
 
   it("calling onChange when the sortby menu value is changed", async () => {
