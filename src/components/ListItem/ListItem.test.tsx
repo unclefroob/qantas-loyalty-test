@@ -5,7 +5,9 @@ import data from "../../assets/data.json";
 
 describe("ListItem", () => {
   it("renders the ListItem component with a self rating, not refundable and savings", () => {
-    render(<ListItem item={selfRatedNotRefundable} />);
+    const { asFragment } = render(<ListItem item={selfRatedNotRefundable} />);
+
+    expect(asFragment()).toMatchSnapshot();
     let circle = screen.queryAllByTestId("CircleIcon");
     let star = screen.queryAllByTestId("StarIcon");
 
@@ -21,7 +23,10 @@ describe("ListItem", () => {
   });
 
   it("renders the ListItem component with a star rating and free cancellation", () => {
-    render(<ListItem item={starRatedFreeCancellation} />);
+    const { asFragment } = render(
+      <ListItem item={starRatedFreeCancellation} />
+    );
+    expect(asFragment()).toMatchSnapshot();
     let circle = screen.queryAllByTestId("CircleIcon");
     let star = screen.queryAllByTestId("StarIcon");
 

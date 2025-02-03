@@ -1,0 +1,897 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ListItem > renders the ListItem component with a self rating, not refundable and savings 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-1vmcmaf"
+  >
+    <div
+      class="MuiBox-root css-0"
+    >
+      <img
+        alt="Courtyard by Marriott Sydney-North Ryde-preview-image"
+        src="https://unsplash.it/145/125/?random"
+      />
+    </div>
+    <div
+      class="MuiBox-root css-1flbhrt"
+    >
+      <div
+        class="MuiBox-root css-al3r5q"
+      >
+        <div
+          class="MuiBox-root css-0"
+        >
+          <div
+            class="MuiBox-root css-10mejol"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+            >
+              Courtyard by Marriott Sydney-North Ryde
+            </p>
+             
+            <span
+              class="MuiRating-root MuiRating-sizeMedium css-1kmtz96-MuiRating-root"
+            >
+              <span
+                class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+              >
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:r1:"
+                  style="width: 0%; overflow: hidden; position: absolute;"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="CircleIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    0.5 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:r1:"
+                  name="rating"
+                  type="radio"
+                  value="0.5"
+                />
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:r2:"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="CircleIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    1 Star
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:r2:"
+                  name="rating"
+                  type="radio"
+                  value="1"
+                />
+              </span>
+              <span
+                class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+              >
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:r3:"
+                  style="width: 0%; overflow: hidden; position: absolute;"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="CircleIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    1.5 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:r3:"
+                  name="rating"
+                  type="radio"
+                  value="1.5"
+                />
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:r4:"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="CircleIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    2 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:r4:"
+                  name="rating"
+                  type="radio"
+                  value="2"
+                />
+              </span>
+              <span
+                class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+              >
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:r5:"
+                  style="width: 0%; overflow: hidden; position: absolute;"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="CircleIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    2.5 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:r5:"
+                  name="rating"
+                  type="radio"
+                  value="2.5"
+                />
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:r6:"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="CircleIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    3 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:r6:"
+                  name="rating"
+                  type="radio"
+                  value="3"
+                />
+              </span>
+              <span
+                class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+              >
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:r7:"
+                  style="width: 0%; overflow: hidden; position: absolute;"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="CircleIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    3.5 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:r7:"
+                  name="rating"
+                  type="radio"
+                  value="3.5"
+                />
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:r8:"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="CircleIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    4 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:r8:"
+                  name="rating"
+                  type="radio"
+                  value="4"
+                />
+              </span>
+              <span
+                class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+              >
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:r9:"
+                  style="width: 50%; overflow: hidden; position: absolute;"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="CircleIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    4.5 Stars
+                  </span>
+                </label>
+                <input
+                  checked=""
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:r9:"
+                  name="rating"
+                  type="radio"
+                  value="4.5"
+                />
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:ra:"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="CircleIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    5 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:ra:"
+                  name="rating"
+                  type="radio"
+                  value="5"
+                />
+              </span>
+              <label
+                class="MuiRating-label MuiRating-pristine css-hlbajn-MuiRating-label"
+              >
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-empty"
+                  name="rating"
+                  type="radio"
+                  value=""
+                />
+                <span
+                  class="MuiRating-visuallyHidden"
+                >
+                  Empty
+                </span>
+              </label>
+            </span>
+          </div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-luy7wk-MuiTypography-root"
+          >
+            7-11 Talavera Rd, North Ryde
+          </p>
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-189ibtx-MuiTypography-root"
+        >
+          Deluxe Balcony Room
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-ndf1gb-MuiTypography-root"
+        />
+      </div>
+      <div
+        class="MuiBox-root css-6nc5k3"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1c4691f-MuiTypography-root"
+        >
+          1 night total (AUD)
+        </p>
+        <div
+          class="MuiBox-root css-162tvoi"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-rqgi09-MuiTypography-root"
+          >
+            $
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-hezony-MuiTypography-root"
+          >
+            329
+          </p>
+        </div>
+        <div
+          class="MuiBox-root css-36s4h4"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-1ewzzrl-MuiTypography-root"
+          >
+            Save $30~
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ListItem > renders the ListItem component with a star rating and free cancellation 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-1vmcmaf"
+  >
+    <div
+      class="MuiBox-root css-0"
+    >
+      <img
+        alt="PARKROYAL Darling Harbour Sydney-preview-image"
+        src="https://unsplash.it/145/125/?random"
+      />
+    </div>
+    <div
+      class="MuiBox-root css-1flbhrt"
+    >
+      <div
+        class="MuiBox-root css-al3r5q"
+      >
+        <div
+          class="MuiBox-root css-0"
+        >
+          <div
+            class="MuiBox-root css-10mejol"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+            >
+              PARKROYAL Darling Harbour Sydney
+            </p>
+             
+            <span
+              class="MuiRating-root MuiRating-sizeMedium css-1kmtz96-MuiRating-root"
+            >
+              <span
+                class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+              >
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:rc:"
+                  style="width: 0%; overflow: hidden; position: absolute;"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="StarIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    0.5 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:rc:"
+                  name="rating"
+                  type="radio"
+                  value="0.5"
+                />
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:rd:"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="StarIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    1 Star
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:rd:"
+                  name="rating"
+                  type="radio"
+                  value="1"
+                />
+              </span>
+              <span
+                class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+              >
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:re:"
+                  style="width: 0%; overflow: hidden; position: absolute;"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="StarIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    1.5 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:re:"
+                  name="rating"
+                  type="radio"
+                  value="1.5"
+                />
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:rf:"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="StarIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    2 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:rf:"
+                  name="rating"
+                  type="radio"
+                  value="2"
+                />
+              </span>
+              <span
+                class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+              >
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:rg:"
+                  style="width: 0%; overflow: hidden; position: absolute;"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="StarIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    2.5 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:rg:"
+                  name="rating"
+                  type="radio"
+                  value="2.5"
+                />
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:rh:"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="StarIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    3 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:rh:"
+                  name="rating"
+                  type="radio"
+                  value="3"
+                />
+              </span>
+              <span
+                class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+              >
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:ri:"
+                  style="width: 0%; overflow: hidden; position: absolute;"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="StarIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    3.5 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:ri:"
+                  name="rating"
+                  type="radio"
+                  value="3.5"
+                />
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:rj:"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="StarIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    4 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:rj:"
+                  name="rating"
+                  type="radio"
+                  value="4"
+                />
+              </span>
+              <span
+                class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+              >
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:rk:"
+                  style="width: 50%; overflow: hidden; position: absolute;"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="StarIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    4.5 Stars
+                  </span>
+                </label>
+                <input
+                  checked=""
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:rk:"
+                  name="rating"
+                  type="radio"
+                  value="4.5"
+                />
+                <label
+                  class="css-hlbajn-MuiRating-label"
+                  for="rating-:rl:"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                      data-testid="StarIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyHidden"
+                  >
+                    5 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-:rl:"
+                  name="rating"
+                  type="radio"
+                  value="5"
+                />
+              </span>
+              <label
+                class="MuiRating-label MuiRating-pristine css-hlbajn-MuiRating-label"
+              >
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="rating-empty"
+                  name="rating"
+                  type="radio"
+                  value=""
+                />
+                <span
+                  class="MuiRating-visuallyHidden"
+                >
+                  Empty
+                </span>
+              </label>
+            </span>
+          </div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-luy7wk-MuiTypography-root"
+          >
+            150 Day Street, Sydney
+          </p>
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-189ibtx-MuiTypography-root"
+        >
+          Deluxe King
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-ndf1gb-MuiTypography-root"
+        >
+          Free Cancellation
+        </p>
+      </div>
+      <div
+        class="MuiBox-root css-6nc5k3"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1c4691f-MuiTypography-root"
+        >
+          1 night total (AUD)
+        </p>
+        <div
+          class="MuiBox-root css-162tvoi"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-rqgi09-MuiTypography-root"
+          >
+            $
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-hezony-MuiTypography-root"
+          >
+            535
+          </p>
+        </div>
+        <div
+          class="MuiBox-root css-36s4h4"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
