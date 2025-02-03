@@ -16,6 +16,7 @@ describe("Header", () => {
       />
     );
   });
+
   it("calling onChange when the sortby menu value is changed", async () => {
     const MockHeader = () => {
       const [sortBy, setSortBy] = useState(SortBy.PRICE_ASC);

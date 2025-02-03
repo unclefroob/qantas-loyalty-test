@@ -25,7 +25,6 @@ const Header = (props: IHeaderProps) => {
   const { numberOfHotels, sortBy, setSortBy } = props;
 
   const handleSort = (e: ChangeEvent<HTMLSelectElement>) => {
-    console.log("hi");
     setSortBy(SortBy[e.target.value as keyof typeof SortBy]);
   };
 
