@@ -62,7 +62,7 @@ const ListItem = (props: IListItemProps) => {
     );
 
   return (
-    <ListItemContainer>
+    <ListItemContainer data-testid="list-item">
       <Box sx={{}}>
         <img
           src={property.previewImage.url}
